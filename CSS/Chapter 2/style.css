@@ -1,0 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.red{
+    background-color: rgb(149, 249, 249);
+    color: brown;
+}

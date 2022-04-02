@@ -1,0 +1,18 @@
+div{
+    background-color: green;
+}
+h1{
+    color: tomato;
+}
+p{
+    background-color: purple;
+    color: aqua;
+}
+#red{
+    background-color: red;
+    color: aqua;
+}
+.blue{
+    background-color: aqua;
+    border: 2px solid black;
+}
