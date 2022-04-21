@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            header {
+                background-color: grey;
+                color: aqua;
+                border: 2px solid rgba(20, 0, 93, 0.977);
+            }
+            li {
+                display: inline;
+                padding: 0 34px;
+            }
+            ul {
+                /* float: right; */
+                background-image: url("Salman.jpg");
+                background-repeat: no-repeat;
+                background-size: contain;
+                padding: 34px;
+            }
+            .container {
+                background-image: url("bg.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                height: 50vh;
+            }
+            .pic {
+                height: 50vh;
+                width: 90vw;
+            }
+            .container1 {
+                background-image: url("Salman.jpg");
+                display: flex;
+                flex-direction: row;
+                background-repeat: repeat;
+                justify-content: space-between;
+            }
+            .pic1 {
+                height: 40vh;
+            }
+            .pic2 {
+                height: 40vh;
+            }
+        </style>
+    </head>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Contact Us</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+    <body>
+        <div class="container">
+            <div class="pic"></div>
+        </div>
+        <div class="container1">
+            <div class="pic1"></div>
+            <div class="pic2"></div>
+        </div>
+    </body>
+</html>
