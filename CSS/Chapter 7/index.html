@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CSS Grid</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                background-color: rgb(68, 240, 68);
+                display: grid;
+                grid-template-columns: auto auto auto;
+                grid-row-gap: 9px;
+                grid-column-gap: 8px;
+                height: 80vh;
+            }
+            .item {
+                border: 2px solid red;
+                /* grid-row: 1/4; */
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+            <div class="item">5</div>
+            <div class="item">6</div>
+        </div>
+    </body>
+</html>
