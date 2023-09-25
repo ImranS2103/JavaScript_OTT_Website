@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CineFlix</title>
+
+        <link rel="stylesheet" href="style.css">
+
+        <link rel="shortcut icon" href="Images/play.png">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+        <!-- font Monotone -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+        href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+
+        <!-- font-Awesome -->
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+
+    </head>
+    <body>
+        <!-- Scroll-Progress-Bar ====================================== -->
+        <div id="progress">
+            <span id="progress-value"></span>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <!-- navigation -->
+        <nav class="navigation">
+            <input type="checkbox" class="menu-btn" id="menu-btn">
+            <label for="menu-btn" class="menu-icon">
+                <span class="nav-icon"></span>
+            </label>
+
+            <!-- logo -->
+            <a href="index.html" class="logo">
+                <span>CineFlix</span>
+            </a>
+
+            <!-- Menu -->
+            <ul class="menu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">Genre</a>
+                </li>
+                <li>
+                    <a href="#">TV Shows</a>
+                </li>
+                <li>
+                    <a href="#">Movies</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+            <!-- search box -->
+            <form action="" class="search-box">
+                <input type="text" name="search" placeholder="Search Any Movie" class="search-input" required/>
+                <button type="submit">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+        </nav>
+
+        <!-- Movie-Banner -------------------------- -->
+        <section
+            class="movie-banner">
+
+            <!-- img ----------------------------- -->
+            <div class="m-banner-img">
+                <img src="Movie-Data/KGF2/kgf5.jpg" alt="">
+            </div>
+
+            <!-- Content --------------------------------------- -->
+            <div
+                class="banner-container">
+
+                <!-- Title-top ----------------------------- -->
+                <div
+                    class="title-top">
+
+                    <!-- Title-Container *********************88 -->
+                    <div
+                        class="title-container">
+
+                        <!-- Title --------------------------------- -->
+                        <div class="movie-title">
+                            <h1>K.G.F: Chapter 2 
+                                
+                            </h1>
+                        </div>
+
+                        <!-- More-About-Movie ------------------------ -->
+                        <div class="more-about-movie">
+                            <span class="quality">Full HD</span>
+                            <div class="rating">
+                                8.4
+                                <img src="Images/IMDb-icon.png" alt="imdb">
+                            </div>
+                            <span>14 April 2022</span>
+                            <span>168min</span>
+                        </div>
+
+                        <!-- Language ------------------------ -->
+                        <div class="language">
+                            <span>Hindi</span>
+                        </div>
+
+                    </div>
+
+                    <!-- Title-bottom -------------------------------- -->
+                    <div class="title-bottom">
+
+                        <!-- category ----------------------------- -->
+                        <div class="category">
+                            <strong><br> Category</strong></br>
+                            <a href="#">Adventure, Action, Thriller</a><br><br><br><br><br><br><br>
+                        </div>
+                        
+                        <!-- Trailer-btn ----------------------------- -->
+                        <a href="https://youtu.be/JKa05nyUmuQ" class="watch-btn">Watch Trailer</a>
+                    </div>
+
+                </div>
+
+                <!-- Play-btn ************************************** -->
+                <div class="play-btn-container">
+                        <div class="play-btn">
+                            <a href="javascript:void">
+                                <i class="fas fa-play"></i>
+                            </a>
+                        </div>
+                </div>
+
+                <!-- Video/Full Movie **************************************88 -->
+                <div id="play" class="play">
+                    
+                    <!-- Close-btn *********************************** -->
+                    <a href="javascript:void" class="close-movie">
+                        <i class="fas fa-times"></i>
+                    </a>
+                    
+                    <!-- Movie ************************************** -->
+                    <div class="play-movie">
+                        <video id="m-video" controls>
+                            <source src="Movie-Data/KGF2/K.G.F Chapter 2 (Hindi) (2022) 720p AMZN WEB-DL x265 [Hindi (DD+ 5.1 - 192Kbps & AAC 2.0)] ESubs _Vegamovies.NL.mkv" type="video/mp4">
+                        </video>
+                    </div>
+                    
+                </div>
+
+            </div>
+        </section>
+<!-- Banner-End ------------------------------------------------------------------- -->
+
+        <!-- Details *********************************************8 -->
+        <section class="movie-details">
+            <strong>K.G.F: Chapter 2 (2022) </strong>
+            <p>🔥 “K.G.F: Chapter 2” – The blood-soaked land of Kolar Gold Fields (KGF) has a new overlord now – Rocky, whose name strikes fear in the heart of his foes. His allies look up to Rocky as their savior, the government sees him as a threat to law and order; enemies are clamoring for revenge and conspiring for his downfall. Bloodier battles and darker days await as Rocky continues on his quest for unchallenged supremacy.</p>
+        </section>
+
+        <!-- Screenshots************************************************ -->
+        <section class="screenshots">
+            <strong>Screenshots</strong>
+            <!-- screenshots-container ******************************** -->
+            
+            <div class="screen-s-container">
+                <img src="Movie-Data/KGF2/scr1.png" alt="">
+                <img src="Movie-Data/KGF2/scr2.png" alt="">
+                <img src="Movie-Data/KGF2/scr3.png" alt="">
+                <img src="Movie-Data/KGF2/scr4.png" alt="">
+                <img src="Movie-Data/KGF2/scr5.png" alt="">
+                <img src="Movie-Data/KGF2/scr6.png" alt="">
+                
+            </div>
+        </section>
+
+        <!-- Download**********************************************8  -->
+        <section class="download-movie">
+
+            <!-- container ------------------------ -->
+            <div class="download-container">
+
+                <!-- box---------------------------- -->
+                <div class="download-box">
+                    <span><i class="fas fa-server"></i> Server 1</span>
+                    <span>Hindi</span>
+                    <span>480p</span>
+                    <a href="Movie-Data/KGF2/K.G.F Chapter 2 (Hindi) (2022) 720p AMZN WEB-DL x265 [Hindi (DD+ 5.1 - 192Kbps & AAC 2.0)] ESubs _Vegamovies.NL.mkv" download>Download</a>
+                </div>
+
+                <div class="download-box">
+                    <span><i class="fas fa-server"></i> Server 2</span>
+                    <span>Hindi</span>
+                    <span>720p</span>
+                    <a href="Movie-Data/KGF2/K.G.F Chapter 2 (Hindi) (2022) 720p AMZN WEB-DL x265 [Hindi (DD+ 5.1 - 192Kbps & AAC 2.0)] ESubs _Vegamovies.NL.mkv" download>Download</a>
+                </div>
+
+                <div class="download-box">
+                    <span><i class="fas fa-server"></i> Server 3</span>
+                    <span>Hindi</span>
+                    <span>1080p</span>
+                    <a href="Movie-Data/KGF2/K.G.F Chapter 2 (Hindi) (2022) 720p AMZN WEB-DL x265 [Hindi (DD+ 5.1 - 192Kbps & AAC 2.0)] ESubs _Vegamovies.NL.mkv" download>Download</a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Footer ----------------------------- -->
+        <footer>
+            <!-- Footer-logo ------------------------ -->
+            <a href="index.html" class="logo">
+                <span>CineFlix</span>
+            </a>
+
+            <!-- copyright ------------------------ -->
+            <span class="copyright">Copyright 2022 - GoingToInternet
+            </span>
+
+
+        </footer>
+
+
+
+
+        <!-- js swiper  -------------------------------->
+        <script src="swiper-bundle.min.js"></script>
+
+        <!-- jQuery --------------------------------- -->
+        <script src="jQuery.js"></script>
+
+
+        <script>
+
+            // Scroll-Progress-bar ==============================>
+            // let scrollPercentage = () => {
+            //     let ScrollProgress = document.getElementById("progress");
+            //     let progressValue = document.getElementById("progress-value");
+            //     let pos = document.documentElement.scrollTop;
+            //     let calcHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            //     let scrollValue = Math.round(pos * 100 / calcHeight);
+            //     scrollProgress.style.background = 'conic-gradient(#e70634 ${scrollValue}%, #2b2f38 ${scrollValue}%)';
+            // }
+            // window.onscroll = scrollPercentage;
+            // window.onload = scrollPercentage;
+
+            // <!-- Initialize Swiper ------------------------------>
+
+            var swiper = new Swiper(".mySwiper", {
+                slidesPerView: 1,
+                spaceBetween: 10,
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true
+                },
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false
+                },
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev"
+                },
+                breakpoints: {
+                    640: {
+                        slidesPerView: 2,
+                        spaceBetween: 20
+                    },
+                    768: {
+                        slidesPerView: 2,
+                        spaceBetween: 40
+                    },
+                    1024: {
+                        slidesPerView: 3,
+                        spaceBetween: 50
+                    }
+                }
+            });
+
+            // menu-btn-fixed-when-scroll----------------------------->
+            $(window).scroll(function () {
+                if ($(document).scrollTop() > 20) {
+                    $('.navigation').addClass('fix-icon');
+                } else {
+                    $('.navigation').removeClass('fix-icon');
+                }
+            });
+
+            // Popup-open ------------------------------------->
+            $(document).on('click','.play-btn a',function(){
+                $('.play').addClass('active-popup');
+            });
+
+            // Popup-close------------------------------------->
+            $(document).on('click','.close-movie',function(){
+                $('.play').removeClass('active-popup');
+            });
+
+            // Auto-play-when-popup-open ---------------------------->
+            $('.play-btn a').click(function(){
+                $('#m-video')[0].play();
+            });
+
+        </script>
+
+    </body>
+</html>
